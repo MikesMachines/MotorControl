@@ -13,9 +13,19 @@ This goes into a 3d printed enclosure based off the Ultimate Box Creator on Thin
 <P>
 Not including sensors, the parts are under $30.  
 <P>
+The MOSFET boards are 10 for $14 - https://www.amazon.com/gp/product/B07XJSRY6B
+I've been buying the S2 mini and S3 versions to get full USB support (some of them end up as MIDI controllers) but the old version works just fine. The S2 mini is great for space constrained installations, but doesn't have bluetooth. 
+
+The ESP32 is available for $6 with expansion that has a 12v barrel input for power in an UNO footprint:
+https://www.aliexpress.us/item/3256804150863583
+
+The MOSFET boards have pass thought positives and horrible screw terminals, so I hook it up like this (don't power VIN if USB is connected):
+![ESP32_Controller](https://user-images.githubusercontent.com/105053125/224486164-d9a4f0c3-a946-4ceb-97e2-df432a89146d.JPG)
+
 <p>
   <hr>
   <P>
+
     Boxes with DC barrel and aviation outs:
     <P>
 <table>
